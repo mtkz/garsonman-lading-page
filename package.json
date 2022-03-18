@@ -1,0 +1,19 @@
+{
+  "name": "garsonman-lading-page",
+  "version": "1.0.0",
+  "description": "a landing page for garsonman.ir",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tw:watch": "npx tailwindcss -i ./src/entry.css -o ./dist/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtkz/garsonman-lading-page.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtkz/garsonman-lading-page/issues"
+  },
+  "homepage": "https://github.com/mtkz/garsonman-lading-page#readme"
+}

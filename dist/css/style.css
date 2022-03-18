@@ -1032,6 +1032,11 @@ body{
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .antialiased{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1118,6 +1123,10 @@ body {
 @media (min-width: 640px){
   .sm\:mb-10{
     margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-5{
+    margin-bottom: 1.25rem;
   }
 
   .sm\:px-8{

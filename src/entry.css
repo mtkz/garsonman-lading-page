@@ -1,7 +1,62 @@
+@import url('font.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+    body {
+        @apply font-peyda-regular;
+    }
+}
 
-body{
+body {
     direction: rtl;
 }
+
+
+/* .gm-ripple::before {
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    content: "";
+    border: 8px solid rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    -webkit-animation-name: ripple;
+            animation-name: ripple;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+            animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    z-index: -1;
+  }
+  @-webkit-keyframes ripple {
+    from {
+      opacity: 1;
+      transform: scale3d(0.75, 0.75, 1);
+    }
+    to {
+      opacity: 0;
+      transform: scale3d(1.5, 1.5, 1);
+    }
+  }
+  
+  @keyframes ripple {
+    from {
+      opacity: 1;
+      transform: scale3d(0.75, 0.75, 1);
+    }
+    to {
+      opacity: 0;
+      transform: scale3d(1.5, 1.5, 1);
+    }
+  } */
